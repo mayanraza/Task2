@@ -1,0 +1,489 @@
+.hero-section {
+  background-image: url("../Web_Assets/assets/hero/hero-22.jpg");
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.styling {
+  background-color: #8c52fe;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500;
+  padding: 10px 10px;
+  box-shadow: 2px 2px 4px white;
+}
+
+.styling:hover {
+  background-color: #9adf85;
+  color: black !important;
+  font-weight: 500;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.hero-section .section-overlay {}
+
+.text-white {
+  opacity: 1;
+  color: white !important;
+}
+
+h6 {
+  font-size: var(22);
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home section 2 start  */
+
+
+
+
+
+
+
+.aboutrow {
+  border-radius: 30px;
+  margin-top: 60px;
+}
+
+.custom-border-radius-start {
+  border-radius: 30px 0 0 30px;
+}
+
+.about-image {
+  display: block;
+  object-fit: cover;
+  height: 100% !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.about-section .custom-text-block {
+  background:#8c52fe;
+}
+
+.custom-text-block1 {
+  background: url("../Web_Assets/assets/about/pexels-quintin-gellar-612949\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 60px;
+  height: 100%;
+}
+.custom-text-block1 h2 {
+  color: rgb(112, 231, 254);
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+.custom-text-block1 p {
+  color: white;
+  /* text-align: center; */
+  text-shadow: 2px 2px 4px black;
+  margin-top: 15px;
+}
+.custom-text-block1 a{
+  color:  rgb(246, 255, 0);
+  text-shadow: none;
+}
+.aboutbtn{
+  margin: auto;
+}
+.aboutbtn a {
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 3px 3px 6px black;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.custom-border-radius-end {
+  border-radius: 0 30px 30px 0;
+}
+
+.about-info1 {
+  background: #fff8f8;
+  border-radius: 0px 0px 0px 23px;
+  /* border-top: 30px solid var(--secondary-color); */
+  position: relative;
+  /* margin: 20px; */
+  padding: -6px 9px;
+  text-align: center;
+  top: -75px;
+  box-shadow: 0px 0px 11px inset #9adf85;
+  width: 90%;
+  margin: auto;
+}
+
+.about-info2 {
+  background: #fff8f8;
+  border-radius: 0px 0px 23px 0px;
+  /* border-top: 30px solid var(--secondary-color); */
+  position: relative;
+  /* margin: 20px; */
+  padding: -6px 9px;
+  text-align: center;
+  top: -75px;
+  box-shadow: 0px 0px 11px inset #9adf85;
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .custom-border-radius-start {
+    border-radius: 30px 30px 0 0;
+  }
+
+  .about-info1 {
+    border-radius: 0px 0px 0px 0px;
+
+  }
+
+  .custom-border-radius-end {
+    border-radius: 0 0 30px 30px;
+  }
+
+  .about-info2 {
+    border-radius: 0px 0px 0px 0px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home section 3 start  */
+
+
+.categories-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #030010;
+  border-radius: 80px;
+  border: 6px solid #4bd222;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 24px;
+  /* margin-right: 19px; */
+  padding: 46px 8px;
+  text-align: center;
+  position: relative;
+  transition: all 0.5s;
+  box-shadow: 9px 9px 16px black;
+}
+
+@keyframes vibration {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px) rotate(-1deg); }
+  40% { transform: translateX(5px) rotate(1deg); }
+  60% { transform: translateX(-5px) rotate(-1deg); }
+  80% { transform: translateX(5px) rotate(1deg); }
+  100% { transform: translateX(0); }
+}
+
+.categories-block:hover{
+  animation: vibration 0.5s ease-in-out;
+
+}
+
+
+
+.categories-block-number-text {
+  color: #fff6f6;
+  display: block;
+  height: 45%;
+  position: relative;
+  left: 2px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.categories-block-title {
+  color: #00d913;
+  font-size: 13px;
+  font-weight: 500;
+}
+.categories-block-number {
+  background: #8c52fe;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  /* border: solid #4a4747; */
+  line-height: 20px;
+}
+.categories-icon {
+  color:#8c52fe;
+  font-size: 30px;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.categories-icon:hover {
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home section 4 start  */
+.section4{
+  margin-top: 75px;
+}
+.custom-text-block4 {
+  background:url("../Web_Assets/assets/menu/vecteezy_blurred-office-workspace-in-the-evening-interior-ai-generated_25523704\ \(1\).jpg");
+  padding: 80px 60px;
+  /* height: 100%; */
+  background-size: cover;
+  background-position: center;
+  /* padding: 50px 60px; */
+  height: 100%;
+}
+.custom-text-block4 p {
+  color: #04edc0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.custom-text-block4 h2 {
+  color: rgb(229 237 255);
+  text-align: center;
+  text-shadow: 2px 2px 18px black;
+}
+.counter-number {
+  font-size: 33px;
+  color: #00d5ff;
+  font-weight: 400;
+  text-shadow: 2px 2px 18px black;
+
+}
+.counter-number-text{
+  font-size: 33px;
+  color: #00d5ff;
+  font-weight: 400;
+  text-shadow: 2px 2px 18px black;
+
+}
+.counter-text {
+  display: flex;
+  color: #00d6e4;
+  text-shadow: 2px 2px 18px black;
+
+  font-weight: 400;
+  font-size: 13px;
+}
+.counter-thumb {
+  margin: 20px;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 18px black;
+
+}
+.catalogo {
+  justify-content: center;
+}
+
+.catalogo .job-location,.job-date {
+  /* margin-left: 6px; */
+  font-size: 19px;
+  font-weight: 500;
+  float: left;
+  color: #8c52fe;
+}
+.cardtitle {
+  font-size: 25px;
+  font-weight: 800;
+}
+.card {
+  /* border: solid; */
+  border-radius: 32px;
+  box-shadow: 4px 4px 24px black;
+}
+
+.card img {
+  border-radius: 32px 32px 0px 0px;
+  height: 204px;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  border-radius: 32px 32px 0px 0px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(0.9); /* You can adjust the scale factor as needed */
+}
+.catebtn{
+  
+}
+.mb-4 {
+  margin-bottom: 5.5rem!important;
+}
+
+
+
+@media (max-width: 767px) {
+  .card {
+    /* border: solid; */
+    border-radius: 32px;
+    box-shadow: 4px 4px 24px black;
+    width: 387px;
+  }
+  
+}
+
+
+
+
+/* home section 5 start  */
+/* home section 6 start  */
+
+.reviewh1{
+  margin: 50px 0px;
+  text-align: center;
+}
+.carousel.slide .carousel-inner {
+  overflow: unset;
+}
+
+.carousel.slide .carousel-inner .carousel-caption {
+  position: relative;
+  right: unset;
+  left: unset;
+}
+
+
+.blog_section {
+  padding: 80px 0 50px;
+  background: url("../Web_Assets/assets/blog/564792\ \(1\).jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.blog_section .user_img img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+
+.blog_section .carousel.slide .carousel-inner .carousel-caption p {
+  font-size: 1.7rem;
+  line-height: 1.45;
+  font-weight: 400;
+  padding: 0 12%;
+  margin-bottom: 25px;
+}
+
+.blog_section .carousel.slide .carousel-inner .carousel-caption .item_rating i {
+  color: var(--yellow);
+  margin-right: 5px;
+}
+
+.blog_section .carousel.slide .carousel-inner .carousel-caption h5 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+

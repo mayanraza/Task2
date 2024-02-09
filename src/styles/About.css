@@ -1,0 +1,135 @@
+.job-section h2 {
+    text-align: center;
+    margin-top: 216px;
+    font-size: 195%;
+    font-weight: 800;
+    color: #43a724;
+    text-shadow: 1px 1px 0px black;
+}
+.job-body{
+    width: 100%;
+}
+.job-section p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 141%;
+    font-weight: 400;
+    /* color: #43a724; */
+    /* text-shadow: 1px 1px 0px black; */
+}
+
+.job-thumb {
+    /* border: solid; */
+    border-radius: 29px;
+    padding: 20px 50px;
+    /* box-shadow: 2px 2px 9px black; */
+}
+
+.job-thumb:hover {
+
+    box-shadow: 2px 2px 9px black;
+}
+
+.job-image-wrap {
+    border-radius: 50%;
+    /* border: solid; */
+    width: 100px;
+    height: 100%;
+    box-shadow: 2px 1px 24px #837c7c;
+}
+
+.job-image {
+    /* border: solid; */
+    border-radius: 50%;
+    padding: 17px 21px;
+
+}
+
+.job-title-link {
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.job-title-link:hover {
+    color: #8c52fe;
+    font-size: 29px;
+    transition: .1s;
+}
+
+.job-location {
+    font-size: 18px;
+}
+
+.job-location i {
+    color: blue;
+    font-size: 26px;
+    padding: 0px 0px;
+}
+
+.job-date {
+    font-size: 22px !important;
+    color: #73bf5c;
+    font-weight: 700 !important;
+    padding: 0px 34px;
+}
+
+.job-date i {
+    color: blue;
+    font-size: 26px;
+    padding: 1px 10px;
+}
+.badge {
+    background: #49e5d4;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 8px 12px;
+    padding-bottom: 6px;
+    box-shadow: 2px 2px 6px black;
+    text-shadow: 2px 2px 4px black;
+}
+.job-section-btn-wrap {
+    margin-left: auto;
+}
+.custom-btn {
+    background: #8c52fe;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 20px;
+}
+@media (max-width:767px){
+    .job-title-link {
+font-size: 19px;
+
+    }
+    .job-location,.job-location i {
+        font-size: 16px !important;
+    }
+    .job-date, .job-date i {
+        /* display: flex; */
+        font-size: 16px !important;
+        padding: 0px 10px;
+        margin-left: 0px;
+        /* border: solid; */
+    }
+    .custom-btn {
+        padding: 5px 4px;
+        font-size: 16px;
+        border-radius: 7px;
+        box-shadow: 2px 2px 3px #756e6e;
+    }
+    .badge {
+        padding: 8px 10px;
+        margin-top: 17px;
+    }
+}

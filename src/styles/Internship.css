@@ -1,0 +1,29 @@
+.hero-section1{
+    background: url("../Web_Assets/assets/about/modern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology\ \(1\).jpg");
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+ 
+   
+}
+
+.internh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.internbtn {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* width: 90%; */
+    margin: auto;
+    background-color: transparent;
+    width: 30%;
+    font-size: 30px;
+    box-shadow: none;
+    color: #5bdcda !important;
+}
